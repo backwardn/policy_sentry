@@ -3,7 +3,7 @@
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
   <title>
-   Actions, Resources, and Condition Keys for      AWS App Mesh - AWS Identity and Access Management
+   Actions, resources, and condition keys for      AWS App Mesh - AWS Identity and Access Management
   </title>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="/assets" name="assets_root"/>
@@ -23,17 +23,17 @@
   <meta content="IAM" name="feedback-item"/>
   <meta content="AWS Identity and Access Management" name="this_doc_product"/>
   <meta content="User Guide" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=02.07" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=02.07" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=02.07" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.08.03" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.08.03" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.08.03" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=02.07" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.08.03" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=02.07" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.08.03" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=02.07" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.08.03" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=02.07" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.08.03" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui">
@@ -50,7 +50,7 @@
       <div id="awsdocs-content">
        <head>
         <title>
-         Actions, Resources, and Condition Keys for      AWS App Mesh - AWS Identity and Access Management
+         Actions, resources, and condition keys for      AWS App Mesh - AWS Identity and Access Management
         </title>
         <meta content="iam-ug.pdf#list_awsappmesh" name="pdf"/>
         <meta content="https://www.amazon.com/dp/B07642VLTV" name="kindle"/>
@@ -91,10 +91,10 @@
            Actions
           </a>
           <a href="#awsappmesh-resources-for-iam-policies">
-           Resource Types
+           Resource types
           </a>
           <a href="#awsappmesh-policy-keys">
-           Condition Keys
+           Condition keys
           </a>
          </div>
          <div class="awsui-util-container" id="main-content">
@@ -102,7 +102,7 @@
            <awsdocs-language-banner data-service="$ctrl.pageService">
            </awsdocs-language-banner>
            <h1 class="topictitle" id="list_awsappmesh">
-            Actions, Resources, and Condition Keys for      AWS App Mesh
+            Actions, resources, and condition keys for      AWS App Mesh
            </h1>
            <div class="awsdocs-page-header-container">
             <awsdocs-page-header>
@@ -161,23 +161,23 @@
             <ul>
              <li>
               <a href="#awsappmesh-actions-as-permissions">
-               Actions Defined by        AWS App Mesh
+               Actions defined by        AWS App Mesh
               </a>
              </li>
              <li>
               <a href="#awsappmesh-resources-for-iam-policies">
-               Resource Types Defined by        AWS App Mesh
+               Resource types defined by        AWS App Mesh
               </a>
              </li>
              <li>
               <a href="#awsappmesh-policy-keys">
-               Condition Keys for        AWS App Mesh
+               Condition keys for        AWS App Mesh
               </a>
              </li>
             </ul>
            </div>
            <h2 id="awsappmesh-actions-as-permissions">
-            Actions Defined by        AWS App Mesh
+            Actions defined by        AWS App Mesh
            </h2>
            <p>
             You can specify the following actions in the
@@ -193,7 +193,7 @@
            <p>
             The
             <b>
-             Resource Types
+             Resource types
             </b>
             column indicates whether each action supports      resource-level permissions. If
                                     there is no value for this column, you must specify all      resources ("*") in the
@@ -210,32 +210,91 @@
            <p>
             For details about the columns in the following table, see
             <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The Actions Table
+             The actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w469aac34c14c27c35c11b9">
+             <table id="w469aac33c14c29c35c11b9">
+              <thead>
+               <tr>
+                <th>
+                 Actions
+                </th>
+                <th>
+                 Description
+                </th>
+                <th>
+                 Access level
+                </th>
+                <th>
+                 Resource types (*required)
+                </th>
+                <th>
+                 Condition keys
+                </th>
+                <th>
+                 Dependent actions
+                </th>
+               </tr>
+              </thead>
               <tr>
-               <th>
-                Actions
-               </th>
-               <th>
-                Description
-               </th>
-               <th>
-                Access Level
-               </th>
-               <th>
-                Resource Types (*required)
-               </th>
-               <th>
-                Condition Keys
-               </th>
-               <th>
-                Dependent Actions
-               </th>
+               <td rowspan="3">
+                <a id="awsappmesh-CreateGatewayRoute">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_CreateGatewayRoute.html">
+                 CreateGatewayRoute
+                </a>
+               </td>
+               <td rowspan="3">
+                Creates a gateway route that is associated with a virtual gateway.
+               </td>
+               <td rowspan="3">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-gatewayRoute">
+                  gatewayRoute*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualService">
+                  virtualService
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#awsappmesh-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
               </tr>
               <tr>
                <td rowspan="2">
@@ -312,6 +371,50 @@
                 <p>
                  <a href="#awsappmesh-virtualNode">
                   virtualNode
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+                <p>
+                 <a href="#awsappmesh-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="awsappmesh-CreateVirtualGateway">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_CreateVirtualGateway.html">
+                 CreateVirtualGateway
+                </a>
+               </td>
+               <td rowspan="2">
+                Creates a virtual gateway within a service mesh.
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualGateway">
+                  virtualGateway*
                  </a>
                 </p>
                </td>
@@ -511,6 +614,32 @@
               </tr>
               <tr>
                <td>
+                <a id="awsappmesh-DeleteGatewayRoute">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_DeleteGatewayRoute.html">
+                 DeleteGatewayRoute
+                </a>
+               </td>
+               <td>
+                Deletes an existing gateway route.
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-gatewayRoute">
+                  gatewayRoute*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awsappmesh-DeleteMesh">
                 </a>
                 <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_DeleteMesh.html">
@@ -553,6 +682,32 @@
                 <p>
                  <a href="#awsappmesh-route">
                   route*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsappmesh-DeleteVirtualGateway">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_DeleteVirtualGateway.html">
+                 DeleteVirtualGateway
+                </a>
+               </td>
+               <td>
+                Deletes an existing virtual gateway.
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualGateway">
+                  virtualGateway*
                  </a>
                 </p>
                </td>
@@ -641,6 +796,32 @@
               </tr>
               <tr>
                <td>
+                <a id="awsappmesh-DescribeGatewayRoute">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_DescribeGatewayRoute.html">
+                 DescribeGatewayRoute
+                </a>
+               </td>
+               <td>
+                Describes an existing gateway route.
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-gatewayRoute">
+                  gatewayRoute*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awsappmesh-DescribeMesh">
                 </a>
                 <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_DescribeMesh.html">
@@ -683,6 +864,32 @@
                 <p>
                  <a href="#awsappmesh-route">
                   route*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsappmesh-DescribeVirtualGateway">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_DescribeVirtualGateway.html">
+                 DescribeVirtualGateway
+                </a>
+               </td>
+               <td>
+                Describes an existing virtual gateway.
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualGateway">
+                  virtualGateway*
                  </a>
                 </p>
                </td>
@@ -771,6 +978,32 @@
               </tr>
               <tr>
                <td>
+                <a id="awsappmesh-ListGatewayRoutes">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_ListGatewayRoutes.html">
+                 ListGatewayRoutes
+                </a>
+               </td>
+               <td>
+                Returns a list of existing gateway routes in a service mesh.
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualGateway">
+                  virtualGateway*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awsappmesh-ListMeshes">
                 </a>
                 <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_ListMeshes.html">
@@ -817,19 +1050,32 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="5">
+               <td rowspan="7">
                 <a id="awsappmesh-ListTagsForResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_ListTagsForResource.html">
                  ListTagsForResource
                 </a>
                </td>
-               <td rowspan="5">
+               <td rowspan="7">
                 List the tags for an App Mesh resource.
                </td>
-               <td rowspan="5">
+               <td rowspan="7">
                 List
                </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-gatewayRoute">
+                  gatewayRoute
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <p>
                  <a href="#awsappmesh-mesh">
@@ -847,6 +1093,19 @@
                 <p>
                  <a href="#awsappmesh-route">
                   route
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualGateway">
+                  virtualGateway
                  </a>
                 </p>
                </td>
@@ -886,6 +1145,32 @@
                 <p>
                  <a href="#awsappmesh-virtualService">
                   virtualService
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsappmesh-ListVirtualGateways">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_ListVirtualGateways.html">
+                 ListVirtualGateways
+                </a>
+               </td>
+               <td>
+                Returns a list of existing virtual gateways in a service mesh.
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-mesh">
+                  mesh*
                  </a>
                 </p>
                </td>
@@ -936,8 +1221,8 @@
                </td>
                <td>
                 <p>
-                 <a href="#awsappmesh-virtualRouter">
-                  virtualRouter*
+                 <a href="#awsappmesh-mesh">
+                  mesh*
                  </a>
                 </p>
                </td>
@@ -962,8 +1247,8 @@
                </td>
                <td>
                 <p>
-                 <a href="#awsappmesh-virtualService">
-                  virtualService*
+                 <a href="#awsappmesh-mesh">
+                  mesh*
                  </a>
                 </p>
                </td>
@@ -973,23 +1258,24 @@
                </td>
               </tr>
               <tr>
-               <td>
+               <td rowspan="2">
                 <a id="awsappmesh-StreamAggregatedResources">
                 </a>
                 <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/envoy.html">
                  StreamAggregatedResources
                 </a>
                </td>
-               <td>
-                Allows an Envoy Proxy to receive streamed resources for a VirtualNode.
+               <td rowspan="2">
+                Allows an Envoy Proxy to receive streamed resources for an App Mesh endpoint (VirtualNode
+                                                or VirtualGateway).
                </td>
-               <td>
+               <td rowspan="2">
                 Read
                </td>
                <td>
                 <p>
-                 <a href="#awsappmesh-virtualNode">
-                  virtualNode*
+                 <a href="#awsappmesh-virtualGateway">
+                  virtualGateway
                  </a>
                 </p>
                </td>
@@ -999,19 +1285,45 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="6">
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualNode">
+                  virtualNode
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="8">
                 <a id="awsappmesh-TagResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_TagResource.html">
                  TagResource
                 </a>
                </td>
-               <td rowspan="6">
+               <td rowspan="8">
                 Associates the specified tags to a resource with the specified resourceArn.
                </td>
-               <td rowspan="6">
+               <td rowspan="8">
                 Write
                </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-gatewayRoute">
+                  gatewayRoute
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <p>
                  <a href="#awsappmesh-mesh">
@@ -1029,6 +1341,19 @@
                 <p>
                  <a href="#awsappmesh-route">
                   route
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualGateway">
+                  virtualGateway
                  </a>
                 </p>
                </td>
@@ -1095,19 +1420,32 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="6">
+               <td rowspan="8">
                 <a id="awsappmesh-UntagResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_UntagResource.html">
                  UntagResource
                 </a>
                </td>
-               <td rowspan="6">
+               <td rowspan="8">
                 Deletes specified tags from a resource.
                </td>
-               <td rowspan="6">
+               <td rowspan="8">
                 Write
                </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-gatewayRoute">
+                  gatewayRoute
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <p>
                  <a href="#awsappmesh-mesh">
@@ -1125,6 +1463,19 @@
                 <p>
                  <a href="#awsappmesh-route">
                   route
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualGateway">
+                  virtualGateway
                  </a>
                 </p>
                </td>
@@ -1186,6 +1537,45 @@
                </td>
               </tr>
               <tr>
+               <td rowspan="2">
+                <a id="awsappmesh-UpdateGatewayRoute">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_UpdateGatewayRoute.html">
+                 UpdateGatewayRoute
+                </a>
+               </td>
+               <td rowspan="2">
+                Updates an existing gateway route for a specified service mesh and virtual gateway.
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-gatewayRoute">
+                  gatewayRoute*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualService">
+                  virtualService
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <a id="awsappmesh-UpdateMesh">
                 </a>
@@ -1242,6 +1632,32 @@
                 <p>
                  <a href="#awsappmesh-virtualNode">
                   virtualNode
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsappmesh-UpdateVirtualGateway">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_UpdateVirtualGateway.html">
+                 UpdateVirtualGateway
+                </a>
+               </td>
+               <td>
+                Updates an existing virtual gateway in a specified service mesh.
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-virtualGateway">
+                  virtualGateway*
                  </a>
                 </p>
                </td>
@@ -1358,7 +1774,7 @@
             </div>
            </div>
            <h2 id="awsappmesh-resources-for-iam-policies">
-            Resource Types Defined by        AWS App Mesh
+            Resource types defined by        AWS App Mesh
            </h2>
            <p>
             The following resource types are defined by this service and can be used in the
@@ -1374,24 +1790,26 @@
                                     keys are displayed in the last column of the      table. For details about the columns
                                     in the following table, see
             <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The Resource Types Table
+             The resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w469aac34c14c27c35c13b5">
-              <tr>
-               <th>
-                Resource Types
-               </th>
-               <th>
-                ARN
-               </th>
-               <th>
-                Condition Keys
-               </th>
-              </tr>
+             <table id="w469aac33c14c29c35c13b5">
+              <thead>
+               <tr>
+                <th>
+                 Resource types
+                </th>
+                <th>
+                 ARN
+                </th>
+                <th>
+                 Condition keys
+                </th>
+               </tr>
+              </thead>
               <tr>
                <td>
                 <a id="awsappmesh-mesh">
@@ -1597,11 +2015,97 @@
                 </p>
                </td>
               </tr>
+              <tr>
+               <td>
+                <a id="awsappmesh-virtualGateway">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/virtual_gateways.html">
+                 virtualGateway
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:appmesh:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:mesh/$
+                 <span>
+                  {
+                 </span>
+                 MeshName}/virtualGateway/$
+                 <span>
+                  {
+                 </span>
+                 VirtualGatewayName}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsappmesh-gatewayRoute">
+                </a>
+                <a href="https://docs.aws.amazon.com/app-mesh/latest/userguide/virtual_gateways.html">
+                 gatewayRoute
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:appmesh:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:mesh/$
+                 <span>
+                  {
+                 </span>
+                 MeshName}/virtualGateway/$
+                 <span>
+                  {
+                 </span>
+                 VirtualGatewayName}/gatewayRoute/$
+                 <span>
+                  {
+                 </span>
+                 GatewayRouteName}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#awsappmesh-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
              </table>
             </div>
            </div>
            <h2 id="awsappmesh-policy-keys">
-            Condition Keys for        AWS App Mesh
+            Condition keys for        AWS App Mesh
            </h2>
            <p>
             AWS App Mesh defines the following condition keys that can be used in the
@@ -1612,45 +2116,39 @@
                                     under which the policy statement applies. For details about the columns in the   
                                     following table, see
             <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The Condition Keys Table
+             The condition keys table
             </a>
             .
            </p>
            <p>
             To view the global condition keys that are available to all services, see
             <a href="reference_policies_condition-keys.html#AvailableKeys" target="_blank">
-             Available Global        Condition Keys
+             Available global        condition keys
             </a>
-            in the
-            <em>
-             IAM Policy Reference
-            </em>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w469aac34c14c27c35c15b7">
-              <tr>
-               <th>
-                Condition Keys
-               </th>
-               <th>
-                Description
-               </th>
-               <th>
-                Type
-               </th>
-              </tr>
+             <table id="w469aac33c14c29c35c15b7">
+              <thead>
+               <tr>
+                <th>
+                 Condition keys
+                </th>
+                <th>
+                 Description
+                </th>
+                <th>
+                 Type
+                </th>
+               </tr>
+              </thead>
               <tr>
                <td>
                 <a id="awsappmesh-aws_RequestTag___TagKey_">
                 </a>
                 <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
-                 aws:RequestTag/$
-                 <span>
-                  {
-                 </span>
-                 TagKey}
+                 aws:RequestTag/${TagKey}
                 </a>
                </td>
                <td>
@@ -1665,11 +2163,7 @@
                 <a id="awsappmesh-aws_ResourceTag___TagKey_">
                 </a>
                 <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
-                 aws:ResourceTag/$
-                 <span>
-                  {
-                 </span>
-                 TagKey}
+                 aws:ResourceTag/${TagKey}
                 </a>
                </td>
                <td>
@@ -1793,17 +2287,18 @@
    </awsui-app-layout>
    <awsdocs-cookie-banner class="doc-cookie-banner">
    </awsdocs-cookie-banner>
-   <!--SiteCatalyst code version: H.25.2.
+   <!--
+                SiteCatalyst code version: H.25.2.
                 Copyright 1996-2012 Adobe, Inc. All Rights Reserved
                 More info available at http://www.omniture.com
             -->
-   <script language="JavaScript" src="https://a0.awsstatic.com/s_code/js/1.0/awshome_s_code.js" type="text/javascript">
-   </script>
    <script language="JavaScript" type="text/javascript">
-    <!--
-                    if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
-                    //
-                -->
+    awsdocs = {
+    prop66: 'AWS Identity and Access Management',
+    prop65: 'User Guide'
+}
+   </script>
+   <script language="JavaScript" src="https://a0.awsstatic.com/s_code/js/3.0/awshome_s_code.js" type="text/javascript">
    </script>
    <!--/DO NOT REMOVE/-->
    <!--End SiteCatalyst code version: H.25.2.-->

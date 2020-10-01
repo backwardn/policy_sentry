@@ -3,7 +3,7 @@
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
   <title>
-   Actions, Resources, and Condition Keys for      Amazon Connect - AWS Identity and Access Management
+   Actions, resources, and condition keys for      Amazon Connect - AWS Identity and Access Management
   </title>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="/assets" name="assets_root"/>
@@ -23,17 +23,17 @@
   <meta content="IAM" name="feedback-item"/>
   <meta content="AWS Identity and Access Management" name="this_doc_product"/>
   <meta content="User Guide" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=02.07" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=02.07" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=02.07" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.08.03" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.08.03" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.08.03" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=02.07" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.08.03" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=02.07" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.08.03" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=02.07" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.08.03" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=02.07" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.08.03" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui">
@@ -50,7 +50,7 @@
       <div id="awsdocs-content">
        <head>
         <title>
-         Actions, Resources, and Condition Keys for      Amazon Connect - AWS Identity and Access Management
+         Actions, resources, and condition keys for      Amazon Connect - AWS Identity and Access Management
         </title>
         <meta content="iam-ug.pdf#list_amazonconnect" name="pdf"/>
         <meta content="https://www.amazon.com/dp/B07642VLTV" name="kindle"/>
@@ -91,10 +91,10 @@
            Actions
           </a>
           <a href="#amazonconnect-resources-for-iam-policies">
-           Resource Types
+           Resource types
           </a>
           <a href="#amazonconnect-policy-keys">
-           Condition Keys
+           Condition keys
           </a>
          </div>
          <div class="awsui-util-container" id="main-content">
@@ -102,7 +102,7 @@
            <awsdocs-language-banner data-service="$ctrl.pageService">
            </awsdocs-language-banner>
            <h1 class="topictitle" id="list_amazonconnect">
-            Actions, Resources, and Condition Keys for      Amazon Connect
+            Actions, resources, and condition keys for      Amazon Connect
            </h1>
            <div class="awsdocs-page-header-container">
             <awsdocs-page-header>
@@ -161,23 +161,23 @@
             <ul>
              <li>
               <a href="#amazonconnect-actions-as-permissions">
-               Actions Defined by        Amazon Connect
+               Actions defined by        Amazon Connect
               </a>
              </li>
              <li>
               <a href="#amazonconnect-resources-for-iam-policies">
-               Resource Types Defined by        Amazon Connect
+               Resource types defined by        Amazon Connect
               </a>
              </li>
              <li>
               <a href="#amazonconnect-policy-keys">
-               Condition Keys for        Amazon Connect
+               Condition keys for        Amazon Connect
               </a>
              </li>
             </ul>
            </div>
            <h2 id="amazonconnect-actions-as-permissions">
-            Actions Defined by        Amazon Connect
+            Actions defined by        Amazon Connect
            </h2>
            <p>
             You can specify the following actions in the
@@ -193,7 +193,7 @@
            <p>
             The
             <b>
-             Resource Types
+             Resource types
             </b>
             column indicates whether each action supports      resource-level permissions. If
                                     there is no value for this column, you must specify all      resources ("*") in the
@@ -210,32 +210,131 @@
            <p>
             For details about the columns in the following table, see
             <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The Actions Table
+             The actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w469aac34c14c27d246c11b9">
+             <table id="w469aac33c14c29d250c11b9">
+              <thead>
+               <tr>
+                <th>
+                 Actions
+                </th>
+                <th>
+                 Description
+                </th>
+                <th>
+                 Access level
+                </th>
+                <th>
+                 Resource types (*required)
+                </th>
+                <th>
+                 Condition keys
+                </th>
+                <th>
+                 Dependent actions
+                </th>
+               </tr>
+              </thead>
               <tr>
-               <th>
-                Actions
-               </th>
-               <th>
-                Description
-               </th>
-               <th>
-                Access Level
-               </th>
-               <th>
-                Resource Types (*required)
-               </th>
-               <th>
-                Condition Keys
-               </th>
-               <th>
-                Dependent Actions
-               </th>
+               <td rowspan="3">
+                <a id="amazonconnect-AssociateRoutingProfileQueues">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_AssociateRoutingProfileQueues.html">
+                 AssociateRoutingProfileQueues
+                </a>
+               </td>
+               <td rowspan="3">
+                Grants permissions to associate queues with a routing profile in an Amazon Connect
+                                                instance.
+               </td>
+               <td rowspan="3">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-queue">
+                  queue*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-CreateContactFlow">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateContactFlow.html">
+                 CreateContactFlow
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to create a contact flow in an Amazon Connect instance.
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact-flow">
+                  contact-flow*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonconnect-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
               </tr>
               <tr>
                <td>
@@ -297,8 +396,68 @@
                  s3:CreateBucket
                 </p>
                 <p>
+                 s3:GetBucketLocation
+                </p>
+                <p>
                  s3:ListAllMyBuckets
                 </p>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="3">
+                <a id="amazonconnect-CreateRoutingProfile">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_CreateRoutingProfile.html">
+                 CreateRoutingProfile
+                </a>
+               </td>
+               <td rowspan="3">
+                Grants permission to create a routing profile in an Amazon Connect instance.
+               </td>
+               <td rowspan="3">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-queue">
+                  queue*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonconnect-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
                </td>
               </tr>
               <tr>
@@ -424,6 +583,45 @@
                </td>
               </tr>
               <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-DescribeContactFlow">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeContactFlow.html">
+                 DescribeContactFlow
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to describe a contact flow in an Amazon Connect instance.
+               </td>
+               <td rowspan="2">
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact-flow">
+                  contact-flow*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <a id="amazonconnect-DescribeInstance">
                 </a>
@@ -469,6 +667,45 @@
                 <p>
                  s3:ListAllMyBuckets
                 </p>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-DescribeRoutingProfile">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DescribeRoutingProfile.html">
+                 DescribeRoutingProfile
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to describe a routing profile in an Amazon Connect instance.
+               </td>
+               <td rowspan="2">
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
                </td>
               </tr>
               <tr>
@@ -585,6 +822,46 @@
                 </p>
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-DisassociateRoutingProfileQueues">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_DisassociateRoutingProfileQueues.html">
+                 DisassociateRoutingProfileQueues
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to disassociate queues from a routing profile in an Amazon Connect
+                                                instance.
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -833,6 +1110,32 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonconnect-ListPrompts">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListPrompts.html">
+                 ListPrompts
+                </a>
+               </td>
+               <td>
+                Grants permissions to list prompt resources in an Amazon Connect instance.
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-instance">
+                  instance*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonconnect-ListQueues">
                 </a>
                 <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListQueues.html">
@@ -853,6 +1156,46 @@
                 </p>
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-ListRoutingProfileQueues">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListRoutingProfileQueues.html">
+                 ListRoutingProfileQueues
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to list queue resources in a routing profile in an Amazon Connect
+                                                instance.
+               </td>
+               <td rowspan="2">
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -910,19 +1253,45 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td rowspan="4">
                 <a id="amazonconnect-ListTagsForResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ListTagsForResource.html">
                  ListTagsForResource
                 </a>
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Grants permissions to list tags for an Amazon Connect resource.
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Read
                </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact-flow">
+                  contact-flow
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <p>
                  <a href="#amazonconnect-user">
@@ -1054,8 +1423,37 @@
                  s3:CreateBucket
                 </p>
                 <p>
+                 s3:GetBucketLocation
+                </p>
+                <p>
                  s3:ListAllMyBuckets
                 </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonconnect-ResumeContactRecording">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_ResumeContactRecording.html">
+                 ResumeContactRecording
+                </a>
+               </td>
+               <td>
+                Grants permissions to resume recording for the specified contact.
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact">
+                  contact*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
                </td>
               </tr>
               <tr>
@@ -1076,6 +1474,32 @@
                 <p>
                  <a href="#amazonconnect-contact-flow">
                   contact-flow*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonconnect-StartContactRecording">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_StartContactRecording.html">
+                 StartContactRecording
+                </a>
+               </td>
+               <td>
+                Grants permissions to start recording for the specified contact.
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact">
+                  contact*
                  </a>
                 </p>
                </td>
@@ -1139,19 +1563,97 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td>
+                <a id="amazonconnect-StopContactRecording">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_StopContactRecording.html">
+                 StopContactRecording
+                </a>
+               </td>
+               <td>
+                Grants permissions to stop recording for the specified contact.
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact">
+                  contact*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonconnect-SuspendContactRecording">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_SuspendContactRecording.html">
+                 SuspendContactRecording
+                </a>
+               </td>
+               <td>
+                Grants permissions to suspend recording for the specified contact.
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact">
+                  contact*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="4">
                 <a id="amazonconnect-TagResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_TagResource.html">
                  TagResource
                 </a>
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Grants permissions to tag an Amazon Connect resource.
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Tagging
                </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact-flow">
+                  contact-flow
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <p>
                  <a href="#amazonconnect-user">
@@ -1188,19 +1690,45 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td rowspan="4">
                 <a id="amazonconnect-UntagResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UntagResource.html">
                  UntagResource
                 </a>
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Grants permissions to untag an Amazon Connect resource.
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Tagging
                </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact-flow">
+                  contact-flow
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <p>
                  <a href="#amazonconnect-user">
@@ -1254,6 +1782,257 @@
                 </p>
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-UpdateContactFlowContent">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateContactFlowContent.html">
+                 UpdateContactFlowContent
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to update contact flow content in an Amazon Connect instance.
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact-flow">
+                  contact-flow*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-UpdateContactFlowName">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateContactFlowName.html">
+                 UpdateContactFlowName
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to update the name and description of a contact flow in an Amazon
+                                                Connect instance.
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-contact-flow">
+                  contact-flow*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-UpdateRoutingProfileConcurrency">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateRoutingProfileConcurrency.html">
+                 UpdateRoutingProfileConcurrency
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to update the concurrency in a routing profile in an Amazon Connect
+                                                instance.
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="3">
+                <a id="amazonconnect-UpdateRoutingProfileDefaultOutboundQueue">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateRoutingProfileDefaultOutboundQueue.html">
+                 UpdateRoutingProfileDefaultOutboundQueue
+                </a>
+               </td>
+               <td rowspan="3">
+                Grants permissions to update the outbound queue in a routing profile in an Amazon
+                                                Connect instance.
+               </td>
+               <td rowspan="3">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-queue">
+                  queue*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-UpdateRoutingProfileName">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateRoutingProfileName.html">
+                 UpdateRoutingProfileName
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to update a routing profile name and description in an Amazon Connect
+                                                instance.
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonconnect-UpdateRoutingProfileQueues">
+                </a>
+                <a href="https://docs.aws.amazon.com/connect/latest/APIReference/API_UpdateRoutingProfileQueues.html">
+                 UpdateRoutingProfileQueues
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permissions to update the queues in routing profile in an Amazon Connect instance.
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-routing-profile">
+                  routing-profile*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -1498,7 +2277,7 @@
             </div>
            </div>
            <h2 id="amazonconnect-resources-for-iam-policies">
-            Resource Types Defined by        Amazon Connect
+            Resource types defined by        Amazon Connect
            </h2>
            <p>
             The following resource types are defined by this service and can be used in the
@@ -1514,24 +2293,26 @@
                                     keys are displayed in the last column of the      table. For details about the columns
                                     in the following table, see
             <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The Resource Types Table
+             The resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w469aac34c14c27d246c13b5">
-              <tr>
-               <th>
-                Resource Types
-               </th>
-               <th>
-                ARN
-               </th>
-               <th>
-                Condition Keys
-               </th>
-              </tr>
+             <table id="w469aac33c14c29d250c13b5">
+              <thead>
+               <tr>
+                <th>
+                 Resource types
+                </th>
+                <th>
+                 ARN
+                </th>
+                <th>
+                 Condition keys
+                </th>
+               </tr>
+              </thead>
               <tr>
                <td>
                 <a id="amazonconnect-instance">
@@ -1675,6 +2456,11 @@
                 </code>
                </td>
                <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
                </td>
               </tr>
               <tr>
@@ -1819,6 +2605,11 @@
                 </code>
                </td>
                <td>
+                <p>
+                 <a href="#amazonconnect-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
                </td>
               </tr>
               <tr>
@@ -1897,7 +2688,7 @@
             </div>
            </div>
            <h2 id="amazonconnect-policy-keys">
-            Condition Keys for        Amazon Connect
+            Condition keys for        Amazon Connect
            </h2>
            <p>
             Amazon Connect defines the following condition keys that can be used in the
@@ -1908,45 +2699,39 @@
                                     under which the policy statement applies. For details about the columns in the   
                                     following table, see
             <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The Condition Keys Table
+             The condition keys table
             </a>
             .
            </p>
            <p>
             To view the global condition keys that are available to all services, see
             <a href="reference_policies_condition-keys.html#AvailableKeys" target="_blank">
-             Available Global        Condition Keys
+             Available global        condition keys
             </a>
-            in the
-            <em>
-             IAM Policy Reference
-            </em>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w469aac34c14c27d246c15b7">
-              <tr>
-               <th>
-                Condition Keys
-               </th>
-               <th>
-                Description
-               </th>
-               <th>
-                Type
-               </th>
-              </tr>
+             <table id="w469aac33c14c29d250c15b7">
+              <thead>
+               <tr>
+                <th>
+                 Condition keys
+                </th>
+                <th>
+                 Description
+                </th>
+                <th>
+                 Type
+                </th>
+               </tr>
+              </thead>
               <tr>
                <td>
                 <a id="amazonconnect-aws_RequestTag___TagKey_">
                 </a>
                 <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-requesttag">
-                 aws:RequestTag/$
-                 <span>
-                  {
-                 </span>
-                 TagKey}
+                 aws:RequestTag/${TagKey}
                 </a>
                </td>
                <td>
@@ -1961,11 +2746,7 @@
                 <a id="amazonconnect-aws_ResourceTag___TagKey_">
                 </a>
                 <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourcetag">
-                 aws:ResourceTag/$
-                 <span>
-                  {
-                 </span>
-                 TagKey}
+                 aws:ResourceTag/${TagKey}
                 </a>
                </td>
                <td>
@@ -2089,17 +2870,18 @@
    </awsui-app-layout>
    <awsdocs-cookie-banner class="doc-cookie-banner">
    </awsdocs-cookie-banner>
-   <!--SiteCatalyst code version: H.25.2.
+   <!--
+                SiteCatalyst code version: H.25.2.
                 Copyright 1996-2012 Adobe, Inc. All Rights Reserved
                 More info available at http://www.omniture.com
             -->
-   <script language="JavaScript" src="https://a0.awsstatic.com/s_code/js/1.0/awshome_s_code.js" type="text/javascript">
-   </script>
    <script language="JavaScript" type="text/javascript">
-    <!--
-                    if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
-                    //
-                -->
+    awsdocs = {
+    prop66: 'AWS Identity and Access Management',
+    prop65: 'User Guide'
+}
+   </script>
+   <script language="JavaScript" src="https://a0.awsstatic.com/s_code/js/3.0/awshome_s_code.js" type="text/javascript">
    </script>
    <!--/DO NOT REMOVE/-->
    <!--End SiteCatalyst code version: H.25.2.-->
